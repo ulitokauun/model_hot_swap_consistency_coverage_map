@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ulitokauun-toolproto_jd204"
+name = "ulitokauun-model_hot_swap_consistency_coverage_map"
 version = "0.1.0"
 description = "把候选项映射到类别上，算出工具调用协议工程师·模型热切换的一致性的覆盖率并列出未覆盖的类别"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://ulitokauun.github.io"
-Repository = "https://github.com/ulitokauun/toolproto_jd204"
-Issues = "https://github.com/ulitokauun/toolproto_jd204/issues"
+Repository = "https://github.com/ulitokauun/model_hot_swap_consistency_coverage_map"
+Issues = "https://github.com/ulitokauun/model_hot_swap_consistency_coverage_map/issues"
 
 [project.scripts]
-toolproto_jd204 = "toolproto_jd204:main"
+model_hot_swap_consistency_coverage_map = "model_hot_swap_consistency_coverage_map:main"
 
 [tool.setuptools]
-py-modules = ["toolproto_jd204"]
+py-modules = ["model_hot_swap_consistency_coverage_map"]
